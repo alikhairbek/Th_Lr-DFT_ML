@@ -1,4 +1,4 @@
-﻿# ==========================================================
+# ==========================================================
 # MACHINE LEARNING ANALYSIS OF ELECTRON AFFINITY
 # ACTINIDE COMPLEXES
 # Full ML-Chemistry Workflow
@@ -17,6 +17,7 @@ from sklearn.ensemble import ExtraTreesRegressor, RandomForestRegressor
 from sklearn.svm import SVR
 from sklearn.linear_model import LinearRegression
 from sklearn.utils import resample
+from sklearn.inspection import permutation_importance
 
 from scipy.stats import pearsonr, spearmanr
 from numpy.linalg import inv
